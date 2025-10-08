@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.28;
+
 import "./vinterface.sol"; // import interface to deployed contract
 
 
@@ -8,7 +11,7 @@ contract PolkadotDemo {
 
     // runs once at deployment
   constructor() {
-        verifier = IGroth16Verifier(0xc81D878518791fE261841a1eF7Eb7cc565598Ae4); // paste address of deployed 
+        verifier = IGroth16Verifier(0x00D124b363e7F278aEFF220398254EdE169D307c); // paste address of deployed 
   }
 
     event DidSomething(bool myresult); // trigger event if guuud
